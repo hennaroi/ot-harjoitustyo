@@ -1,0 +1,113 @@
+commit fd7fdac4b63eecce2295acd6856d98feca107170
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 20:25:49 2021 +0200
+
+    lisaa harjoittelua
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit be9afeb9145eb38b380859a14d5c75b05a42932a
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 20:19:20 2021 +0200
+
+    harjoittelua
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit cc9316bcc5a09ba6b8134bea9909319ada1057d1
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 20:06:50 2021 +0200
+
+    muutoksia ekaan ja kolmanteen
+
+ eka.txt    | 5 ++---
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+
+commit 1117df1869b214c6144963c1a77a724b6e3f253b
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 20:02:00 2021 +0200
+
+    tiedosto.txt nimenmuutos eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit edb7b00aed83b30ce572370c5b28d9f2942b1fe0
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 19:59:38 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit e6550ff4ebf7f5c368ee6e1a6b34d126f7396f58
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 19:47:33 2021 +0200
+
+    lisää muutoksia tiedosto.txt
+
+ tiedosto.txt | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit a2fb68c30df52cae96e13c987354be30c6fea1e6
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 19:36:30 2021 +0200
+
+    tiedosto.txt paljon tekstiä
+
+ tiedosto.txt | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+commit 2e38a1025a8f9e79418109e0b8de779772b00737
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 13:37:11 2021 +0200
+
+    stuff luotu
+
+ stuff/lisataan_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d774ac5db7f5d17f93d7694568146425b768112b
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 13:34:06 2021 +0200
+
+    toinen.txt ja kolmas.txt muutettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 7f0c6f8b2ab68d017f5be918dbfbd9de5803b9ee
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 13:31:50 2021 +0200
+
+    kolmas.txt lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a875ab50c3f90224efa0baadb6dd085abad0c6cf
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 13:28:54 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 8c182839dbce2ee9910c69837df4b9fbdd966335
+Author: hennaroi <hennaroinisto@gmail.com>
+Date:   Sun Mar 21 13:18:52 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
