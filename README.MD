@@ -10,6 +10,6 @@
 
 [unicafe/src/tests/maksukortti_test.py](https://github.com/hennaroi/ot-harjoitustyo/blob/master/laskarit/viikko2/unicafe/src/tests/maksukortti_test.py)
 
-[inicafe/src/tests/kassapaate_test.py](https://github.com/hennaroi/ot-harjoitustyo/blob/master/laskarit/viikko2/unicafe/src/tests/kassapaate_test.py)
+[unicafe/src/tests/kassapaate_test.py](https://github.com/hennaroi/ot-harjoitustyo/blob/master/laskarit/viikko2/unicafe/src/tests/kassapaate_test.py)
 
 [Kattavuusraportti.png](https://github.com/hennaroi/ot-harjoitustyo/blob/master/laskarit/viikko2/Kattavuusraportti.png)
