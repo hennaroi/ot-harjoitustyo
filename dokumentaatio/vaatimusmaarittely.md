@@ -7,8 +7,10 @@ Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
 
 ## Käyttöliittymäluonnos
 Karkea ideointi käyttöliittymäluonnoksesta:
+
 kuva
-Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu.
+
+Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu. Pelin yläreunassa näkyy pelaajan rahatilanne, ja ehkä mahdollisesti voittoprosentti.
 
 ## Perusversion tarjoama toiminnallisuus
 ### Panosnäkymä
