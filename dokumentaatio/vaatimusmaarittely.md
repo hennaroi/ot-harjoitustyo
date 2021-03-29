@@ -13,6 +13,7 @@ kuva
 Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu. Pelin yläreunassa näkyy pelaajan rahatilanne, ja ehkä mahdollisesti voittoprosentti.
 
 ## Perusversion tarjoama toiminnallisuus
+Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle annetaan uudestaan 1000€.
 ### Panosnäkymä
 - asetetaan panos, joka on pienimmillään 10€ ja suurimmillaan 1000€
 - panos muodostuu pelimerkeistä 1, 5, 10, 50, 100 ja 500 sekä näiden summista
