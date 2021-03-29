@@ -1,6 +1,6 @@
-# Sudoku
+# Blackjack
 
-Sovelluksella voi pelata 9x9-ruudukollista sudokua.
+Sovelluksella voi harjoitella turvallisesti Blackjack-pelin pelaamista.
 
 ## Dokumentaatio
 ### Viikko 1
