@@ -1,6 +1,6 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
-tarkoitus
+Sovelluksen tarkoituksena on toimia pelialustana 9x9-ruudukkoiselle sudoku-pelille
 
 ## Käyttäjät
 käyttäjät
