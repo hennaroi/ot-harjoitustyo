@@ -1,6 +1,6 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
-Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 eli blackjack tai päästä mahdollisimman lähelle sitä, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saasa panos kaksinkertaisena takaisin.
+Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 eli blackjack tai päästä mahdollisimman lähelle sitä, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saada pelin alussa asettama panos kaksinkertaisena takaisin.
 
 ## Käyttäjät
 Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
@@ -8,9 +8,9 @@ Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
 ## Käyttöliittymäluonnos
 Karkea ideointi käyttöliittymäluonnoksesta:
 
-kuva
+<img src="https://github.com/hennaroi/ot-harjoitustyo/blob/master/dokumentaatio/K%C3%A4ytt%C3%B6liittym%C3%A4luonnos.jpg"  width="750">
 
-Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu. Pelin yläreunassa näkyy pelaajan rahatilanne, ja ehkä mahdollisesti voittoprosentti.
+Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu. Pelin yläreunassa näkyy pelaajan rahatilanne, ja ehkä mahdollisesti myös voittoprosentti.
 
 ## Perusversion tarjoama toiminnallisuus
 Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle annetaan uudestaan 1000€.
@@ -44,6 +44,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
 - kirjainkortti A on joko 1 tai 11 arvoinen, mutta tämä jää kortin saaneelle osapuolelle päätettäväksi
 
 ## Jatkokehitysideoita
+- pelaajien määrän lisääminen siten, että monta pelaajaa pystyy pelaamaan samaa jakajaa vastaan
 - lisää toiminnallisuuksia:
   - __jakaminen__: jos pelaajan kaksi ensimmäistä korttia ovat saman arvoiset, pelaaja voi halutessan jakaa kortit kahdeksi eri kädeksi, mutta tällöin pelaajan on myös tuplattava panoksensa ja jaettava se tasan näiden kahden käden kesken 
   - __vakuutus__: jos jakajan ensimmäinen kortti on ässä, pelaaja voi halutessaan vakuuttaa kätensä, vakuus on yleensä puolet panoksesta
