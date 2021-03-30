@@ -34,8 +34,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
         - jos pelaaja on saanut kahdella ensimmäisella kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
         - muulloin pelaaja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos summa on molemmilla 21 
-        - jos jakaja ja pelaaja molemmat ovat saaneet kahdella ensimmäisellä kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
-        - jos jakajalla ja pelaajalla on samalla korttimäärällä summa 21 mutta ei blackjackiä -> pelaaja saa panoksensa takaisin -> __pelinäkymä__
+        - jos jakajalla ja pelaajalla on sama korttimäärä -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
         - jos pelaajalla on vähemmän kortteja kuin jakajalla -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
         - jos jakajalla on vähemmän kortteja kuin pelaajalla -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos vain pelaajalla on summa 21 -> pelaaja on voittanut
