@@ -8,7 +8,7 @@ Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
 ## Käyttöliittymäluonnos
 Karkea ideointi käyttöliittymäluonnoksesta:
 
-<img src="https://github.com/hennaroi/ot-harjoitustyo/blob/master/dokumentaatio/K%C3%A4ytt%C3%B6liittym%C3%A4luonnos.jpg"  width="750">
+<img src="https://github.com/hennaroi/ot-harjoitustyo/blob/master/dokumentaatio/K%C3%A4ytt%C3%B6liittym%C3%A4luonnos.jpg"  width="600">
 
 Sovellus aukeaa panosnäkymään, jossa asetetaan panos. Panoksen asettamisen jälkeen päästään pelinäkymään, jossa itse peli tapahtuu. Pelin yläreunassa näkyy pelaajan rahatilanne, ja ehkä mahdollisesti myös voittoprosentti.
 
