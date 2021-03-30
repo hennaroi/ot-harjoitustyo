@@ -19,8 +19,9 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
 - panos muodostuu pelimerkeistä 1, 5, 10, 50, 100 ja 500 sekä näiden summista
 - kun pelaaja on valmis, siirrytään __pelinäkymään__
 ### Pelinäkymä
+- jakaja istuu pöydän takana ja pelaaja toisella puolella
 - pelaajan rahavarastosta vähennetään panos
-- jakaja jakaa ensin pelaajalle kortin, sitten itselleen kortin ja sen jälkeen vielä yhden kortin pelaajalle, kaikki kuvapuoli ylöspäin
+- jakaja jakaa korttilaatikosta ensin pelaajalle kortin, sitten itselleen kortin ja sen jälkeen vielä yhden kortin pelaajalle, kaikki kuvapuoli ylöspäin
 - pelaaja valitsee valikosta: 
   - __LISÄÄ__: pelaaja saa uuden kortin,minkä jälkeen:
     - jos summa on 9-11 -> __JÄÄ / LISÄÄ / TUPLAUS__
@@ -31,14 +32,17 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
     - jakaja nostaa kortteja niin kauan, kunnes niiden summa on yli 16
       - jos jakajan summa on yli 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos summa on molemmilla 21 
-        - jos pelaaja on saanut kahdella ensimmäisellä kortillaan summan 21 -> blackjack -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
-        - jos jakaja on saanut kahdella ensimmäisellä kortillaan summan 21 -> blackjack -> pelaaja on hävinnyt -> __panosnäkymä__
+        - jos jakaja ja pelaaja molemmat ovat saaneet kahdella ensimmäisellä kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
+        - jos jakajalla ja pelaajalla on samalla korttimäärällä summa 21 mutta ei blackjackiä -> pelaaja saa panoksensa takaisin -> __pelinäkymä__
         - jos pelaajalla on vähemmän kortteja kuin jakajalla -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
         - jos jakajalla on vähemmän kortteja kuin pelaajalla -> pelaaja on hävinnyt -> __panosnäkymä__
+      - jos vain pelaajalla on summa 21 -> pelaaja on voittanut
+        - jos pelaaja on saanut kahdella ensimmäisella kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
+        - muulloin pelaaja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos jakajalla on summa 21 ja pelaajalla alle 21 -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos jakajan summa on suurempi kuin pelaajan summa -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos jakajan summa on pienempi kuin pelaajan summa -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
-      - jos jakajalla ja pelaajalla on sama summa -> pelaaja on hävinnyt -> __panosnäkymä__
+      - jos jakajalla ja pelaajalla on sama summa mutta ei 21 -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
   - __TUPLAUS__: mahdollista vain, jos korttien summa on 9-11 -> pelaaja saa vain yhden kortin lisää -> vuoro siirtyy jakajalle eli siirrytään tilanteeseen __JÄÄ__
   - __ANTAUDU__: 
     - mahdollista vain heti korttien jaon jälkeen
