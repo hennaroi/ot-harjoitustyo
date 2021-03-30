@@ -25,7 +25,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
   - __LISÄÄ__: pelaaja saa uuden kortin
     - jos summa on 9-11 -> __JÄÄ / LISÄÄ / TUPLAUS__
     - jos summa on alle 8 tai yli 12 mutta alle 21 -> __JÄÄ / LISÄÄ__
-    - jos summa on 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+    - jos summa on 21 -> __JÄÄ__
     - jos summa on yli 21 -> pelaaja on hävinnyt -> __panosnäkymä__
   - __JÄÄ__: pelaaja jää nykyiseen tilanteeseen ja vuoro siirtyy jakajalle
     - jakaja nostaa kortteja niin kauan, kunnes niiden summa on yli 16
