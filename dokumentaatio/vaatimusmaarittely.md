@@ -30,7 +30,9 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
     - jos summa on yli 21 -> pelaaja on hävinnyt -> __panosnäkymä__
   - __JÄÄ__: pelaaja jää nykyiseen tilanteeseen ja vuoro siirtyy jakajalle:
     - jakaja nostaa kortteja niin kauan, kunnes niiden summa on yli 16
-      - jos jakajan summa on yli 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+      - jos jakajan summa on yli 21 -> pelaaja on voittanut
+        - jos pelaaja on saanut kahdella ensimmäisella kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
+        - muulloin pelaaja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos summa on molemmilla 21 
         - jos jakaja ja pelaaja molemmat ovat saaneet kahdella ensimmäisellä kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
         - jos jakajalla ja pelaajalla on samalla korttimäärällä summa 21 mutta ei blackjackiä -> pelaaja saa panoksensa takaisin -> __pelinäkymä__
@@ -40,9 +42,9 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
         - jos pelaaja on saanut kahdella ensimmäisella kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
         - muulloin pelaaja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos jakajalla on summa 21 ja pelaajalla alle 21 -> pelaaja on hävinnyt -> __panosnäkymä__
-      - jos jakajan summa on suurempi kuin pelaajan summa -> pelaaja on hävinnyt -> __panosnäkymä__
-      - jos jakajan summa on pienempi kuin pelaajan summa -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
-      - jos jakajalla ja pelaajalla on sama summa mutta ei 21 -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
+      - jos jakajan summa on suurempi kuin pelaajan summa, mutta molemmat kuitenkin alle 21 -> pelaaja on hävinnyt -> __panosnäkymä__
+      - jos jakajan summa on pienempi kuin pelaajan summa, mutta molemmat kuitenkin alle 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+      - jos jakajalla ja pelaajalla on sama summa, mutta kuitenkaan ei 21 -> pelaaja saa panoksensa takaisin -> __panosnäkymä__
   - __TUPLAUS__: mahdollista vain, jos korttien summa on 9-11 -> pelaaja saa vain yhden kortin lisää -> vuoro siirtyy jakajalle eli siirrytään tilanteeseen __JÄÄ__
   - __ANTAUDU__: 
     - mahdollista vain heti korttien jaon jälkeen
