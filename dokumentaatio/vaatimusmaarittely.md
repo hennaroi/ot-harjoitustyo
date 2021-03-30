@@ -1,6 +1,6 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
-Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 eli blackjack tai päästä mahdollisimman lähelle sitä, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saada pelin alussa asettama panos kaksinkertaisena takaisin.
+Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 eli blackjack tai päästä mahdollisimman lähelle sitä kuitenkin ylittämättä summaa 21, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saada pelin alussa asettama panos kaksinkertaisena takaisin.
 
 ## Käyttäjät
 Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
