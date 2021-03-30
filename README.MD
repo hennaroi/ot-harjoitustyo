@@ -1,6 +1,6 @@
 # Blackjack
 
-Sovelluksella voi harjoitella turvallisesti Blackjack-pelin pelaamista.
+Sovelluksella voi harjoitella turvallisesti Blackjack-pelin pelaamista. Sovellus on Helsingin yliopiston Tietojenkäsittelytieteen Ohjelmistotekniikka-kurssin harjoitustyö.
 
 ## Dokumentaatio
 
