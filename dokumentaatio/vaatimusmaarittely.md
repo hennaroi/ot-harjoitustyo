@@ -36,7 +36,9 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
       - jos jakajan summa on pienempi kuin pelaajan summa -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
       - jos jakajalla ja pelaajalla on sama summa -> pelaaja on hävinnyt -> __panosnäkymä__
   - __TUPLAUS__: mahdollista vain, jos korttien summa on 9-11 -> pelaaja saa vain yhden kortin lisää -> vuoro siirtyy jakajalle eli siirrytään tilanteeseen __JÄÄ__
-  - __ANTAUDU__: pelaaja häviää puolet panoksestaan, mutta saa toisen puolikkaan -> __panosnäkymä__
+  - __ANTAUDU__: 
+    - mahdollista vain heti korttien jaon jälkeen
+    - pelaaja häviää puolet panoksestaan, mutta saa toisen puolikkaan -> __panosnäkymä__
 
 
 - kaikki numerokortit 2, 3, 4, 5, 6, 7, 8 ja 9 ovat oman numeronsa arvoisia
