@@ -1,6 +1,6 @@
 # Vaatimusmäärittely
 ## Sovelluksen tarkoitus
-Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 eli blackjack tai päästä mahdollisimman lähelle sitä kuitenkin ylittämättä summaa 21, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saada pelin alussa asettama panos kaksinkertaisena takaisin.
+Sovelluksen tarkoituksena on toimia turvallisena Blackjack-pelin harjoittelualustana, sillä pelissä ei pysty käyttämään oikeaa rahaa. Pelin tavoitteena on saada korttien avulla summa 21 tai päästä mahdollisimman lähelle sitä kuitenkin ylittämättä summaa 21, jollon pelaajalla on suurin todennäköisyys voittaa jakajan käsi ja saada pelin alussa asettama panos kaksinkertaisena takaisin.
 
 ## Käyttäjät
 Sovelluksen ainoa käyttäjä on pelin *pelaaja*.
@@ -22,15 +22,19 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
 - pelaajan rahavarastosta vähennetään panos
 - jakaja jakaa ensin pelaajalle kortin, sitten itselleen kortin ja sen jälkeen vielä yhden kortin pelaajalle, kaikki kuvapuoli ylöspäin
 - pelaaja valitsee valikosta: 
-  - __LISÄÄ__: pelaaja saa uuden kortin
+  - __LISÄÄ__: pelaaja saa uuden kortin,minkä jälkeen:
     - jos summa on 9-11 -> __JÄÄ / LISÄÄ / TUPLAUS__
     - jos summa on alle 8 tai yli 12 mutta alle 21 -> __JÄÄ / LISÄÄ__
     - jos summa on 21 -> __JÄÄ__
     - jos summa on yli 21 -> pelaaja on hävinnyt -> __panosnäkymä__
-  - __JÄÄ__: pelaaja jää nykyiseen tilanteeseen ja vuoro siirtyy jakajalle
+  - __JÄÄ__: pelaaja jää nykyiseen tilanteeseen ja vuoro siirtyy jakajalle:
     - jakaja nostaa kortteja niin kauan, kunnes niiden summa on yli 16
       - jos jakajan summa on yli 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
-      - jos summa on molemmilla 21 -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+      - jos summa on molemmilla 21 
+        - jos pelaaja on saanut kahdella ensimmäisellä kortillaan summan 21 -> blackjack -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+        - jos jakaja on saanut kahdella ensimmäisellä kortillaan summan 21 -> blackjack -> pelaaja on hävinnyt -> __panosnäkymä__
+        - jos pelaajalla on vähemmän kortteja kuin jakajalla -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
+        - jos jakajalla on vähemmän kortteja kuin pelaajalla -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos jakajalla on summa 21 ja pelaajalla alle 21 -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos jakajan summa on suurempi kuin pelaajan summa -> pelaaja on hävinnyt -> __panosnäkymä__
       - jos jakajan summa on pienempi kuin pelaajan summa -> pelaaja on voittanut ja saa panoksensa kaksinkertaisena takaisin -> __panosnäkymä__
