@@ -29,6 +29,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
     - jos summa on 21 -> __JÄÄ__
     - jos summa on yli 21 -> pelaaja on hävinnyt -> __panosnäkymä__
   - __JÄÄ__: pelaaja jää nykyiseen tilanteeseen ja vuoro siirtyy jakajalle:
+    - jos pelaaja on saanut kahdella ensimmäisellä kortilla summan 21 eli blackjackin ja jakajan kortti ei ole kuvakortti tai kortti ei ole numeroltaan 10 -> pelaaja on voittanut ja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
     - jakaja nostaa kortteja niin kauan, kunnes niiden summa on yli 16
       - jos jakajan summa on yli 21 -> pelaaja on voittanut
         - jos pelaaja on saanut kahdella ensimmäisella kortilla summan 21 eli blackjackin -> pelaaja saa panoksensa puolitoistakertaisena takaisin -> __panosnäkymä__
