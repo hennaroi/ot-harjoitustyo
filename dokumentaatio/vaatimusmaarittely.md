@@ -23,7 +23,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
 - pelaajan rahavarastosta vähennetään panos
 - jakaja jakaa korttilaatikosta ensin pelaajalle kortin, sitten itselleen kortin ja sen jälkeen vielä yhden kortin pelaajalle, kaikki kuvapuoli ylöspäin
 - pelaaja valitsee valikosta: 
-  - __LISÄÄ__: pelaaja saa uuden kortin,minkä jälkeen:
+  - __LISÄÄ__: pelaaja saa uuden kortin, minkä jälkeen:
     - jos summa on 9-11 -> __JÄÄ / LISÄÄ / TUPLAUS__
     - jos summa on alle 8 tai yli 12 mutta alle 21 -> __JÄÄ / LISÄÄ__
     - jos summa on 21 -> __JÄÄ__
@@ -51,7 +51,7 @@ Pelaajalle annetaan alussa 1000€. Jos pelaajalta loppuu rahat, niin tälle ann
     - pelaaja häviää puolet panoksestaan, mutta saa toisen puolikkaan -> __panosnäkymä__
 
 
-- kaikki numerokortit 2, 3, 4, 5, 6, 7, 8 ja 9 ovat oman numeronsa arvoisia
+- kaikki numerokortit 2, 3, 4, 5, 6, 7, 8, 9 ja 10 ovat oman numeronsa arvoisia
 - kirjainkortit J, Q ja K ovat 10 arvoisia
 - kirjainkortti A on joko 1 tai 11 arvoinen, mutta tämä jää kortin saaneelle osapuolelle päätettäväksi
 
